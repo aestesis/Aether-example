@@ -1,0 +1,11 @@
+{
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "type": "swift-debug",
+                "request": "launch",
+                "name": "Swift Program Debug",
+                "program": "${workspaceRoot}/.build/debug/Aether-example"
+            }
+        ]
+    }
