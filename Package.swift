@@ -8,7 +8,7 @@ let package = Package(
         .executable(name: "Aether-example",targets: ["Aether-example"])
     ],
     dependencies: [
-        .package(url: "https://github.com/aestesis/Aether.git", from:"0.0.9")
+        .package(url: "https://github.com/aestesis/Aether.git", from:"0.1.0")
     ],
     targets: [
         .target(name: "Aether-example",dependencies: ["Aether"]),
