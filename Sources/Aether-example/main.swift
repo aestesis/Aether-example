@@ -1,7 +1,8 @@
 import Foundation
 import Aether
 
-Debug.warning("\(FileManager.default.homeDirectoryForCurrentUser.path)")
+Application.name = "Aether-example"
+Debug.codeRoot = "Aether-example"
 
 let window = OsWindow(title:"Aether Example",width:400,height:300)
 if let window = window {
