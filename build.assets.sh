@@ -1,4 +1,5 @@
 # no need to do it, except to update changes
+# need to launch ./edit.sh first
 
 cd Packages/Aether
 ./build.assets.sh
